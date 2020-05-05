@@ -1,4 +1,91 @@
-h1 {
-    color: palevioletred;
-  }
+body {
+    margin: 0;
+}
+
+h1{
+  font-size: 2.5em; 
+  font-family: arial;
+  color: white;
+  background:#009ABA;
+  text-align: center;
+  margin: 0;
+  padding: 2em 0 0;  
+}
+
+h2{
+  font-size: 1.2em;
+  font-family: arial;
+  font-weight: normal;
+  color: white;
+  background:#009ABA;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 4em;
+  margin: 0;
+}
+
+h3{
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bold;
+  color:red; 
+  margin: 0;
+  padding: 3px;
+} 
+
+h4{
+  font-size: 22px;
+  font-family: arial;
+  font-weight: bold;
+  color:#009ABA; 
+  margin: 0;
+  padding: 3px;
+}
+
+label {
+  box-sizing: border-box;
+  font-family: arial;
+  margin: 30px 0 5px;
+}
+
+.form-input{
+  background: white;
+  border: 1.4px solid #C9C4C4;
+  border-radius:4px;
+  margin: 0;
+  padding: 8px;
+  width: 200px;
+  height:20px;
   
+}
+
+.button{
+  font-size: 15px;
+  font-family: arial;
+  font-weight:550;
+  background: white;
+  color: #1FABFF;
+  border: 1.4px solid #1FABFF;
+  border-radius: 5px;
+  margin: 8px 0;
+  padding: 7px 10px;
+}
+
+form{ 
+  display: flex;
+  width: 35%;
+  text-align: left;
+  margin: auto;
+}
+
+
+label{ 
+  display:table; 
+  clear:both; 
+}
+@media screen and (max-width: 900px){  
+form{ 
+   flex-wrap: wrap;
+   margin:auto;
+  }
+}
